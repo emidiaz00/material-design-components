@@ -100,9 +100,10 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="183dp">
+            android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/imgCover"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/card_img_cover_height"
                 android:background="@color/design_default_color_secondary"
@@ -111,6 +112,25 @@
                 app:layout_constraintTop_toTopOf="parent"
                 />
 
+            <TextView
+                android:id="@+id/tvTitleAlt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/black_friday"
+                android:textAppearance="?attr/textAppearanceHeadline5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgCover"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:inputType="textUri"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitleAlt"
+                />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
