@@ -155,17 +155,16 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/tilPassword"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/common_padding_default"
                     android:enabled="false"
                     android:hint="@string/card_password"
                     app:endIconMode="password_toggle"
-                    app:layout_constraintStart_toStartOf="@id/tvTitleAlt"
                     app:layout_constraintEnd_toEndOf="@id/tvTitleAlt"
-                    app:layout_constraintTop_toBottomOf="@+id/tilUrl"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-                    >
+                    app:layout_constraintStart_toStartOf="@id/tvTitleAlt"
+                    app:layout_constraintTop_toBottomOf="@+id/tilUrl">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/etPassword"
@@ -173,6 +172,15 @@
                         android:layout_height="wrap_content"
                         android:inputType="textPassword" />
                 </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:id="@+id/cbEnablePass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_enable_pass"
+                    android:layout_marginTop="@dimen/common_padding_default"
+                    app:layout_constraintStart_toStartOf="@id/tvTitleAlt"
+                    app:layout_constraintTop_toBottomOf="@id/tilPassword"/>
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>

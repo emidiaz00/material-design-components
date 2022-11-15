@@ -11,4 +11,5 @@
     <string name="password">Password</string>
     <string name="card_password">Password</string>
     <string name="image_url">image URL</string>
+    <string name="card_enable_pass">Enable Password</string>
 </resources>
