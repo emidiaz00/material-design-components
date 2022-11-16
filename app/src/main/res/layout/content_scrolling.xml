@@ -177,10 +177,32 @@
                     android:id="@+id/cbEnablePass"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/card_enable_pass"
                     android:layout_marginTop="@dimen/common_padding_default"
+                    android:text="@string/card_enable_pass"
                     app:layout_constraintStart_toStartOf="@id/tvTitleAlt"
-                    app:layout_constraintTop_toBottomOf="@id/tilPassword"/>
+                    app:layout_constraintTop_toBottomOf="@id/tilPassword" />
+
+                <TextView
+                    android:id="@+id/tvSubtitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Black Friday"
+                    android:textAppearance="?attr/textAppearanceSubtitle1"
+                    app:layout_constraintTop_toBottomOf="@+id/cbEnablePass"
+                    app:layout_constraintStart_toStartOf="@id/tvTitleAlt"
+                    app:layout_constraintEnd_toEndOf="@id/tvTitleAlt"
+                    />
+
+                <TextView
+                    android:id="@+id/tvMessageAlt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/large_text"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    app:layout_constraintTop_toBottomOf="@+id/tvSubtitle"
+                    app:layout_constraintStart_toStartOf="@id/tvTitleAlt"
+                    app:layout_constraintEnd_toEndOf="@id/tvTitleAlt"
+                    />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
