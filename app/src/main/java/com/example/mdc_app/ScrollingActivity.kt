@@ -16,10 +16,7 @@ class ScrollingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_scrolling)
 
 
-
-
     }
-
 
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

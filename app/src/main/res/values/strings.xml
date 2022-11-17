@@ -8,4 +8,11 @@
     <string name="black_friday">Black Friday</string>
     <string name="imageUrl">Image URL</string>
     <string name="card_required">Required</string>
+    <string name="password">Password</string>
+    <string name="card_password">Password</string>
+    <string name="image_url">image URL</string>
+    <string name="card_enable_pass">Enable Password</string>
+    <string name="button_red">Red</string>
+    <string name="button_blue">Blue</string>
+    <string name="button_green">Green</string>
 </resources>
