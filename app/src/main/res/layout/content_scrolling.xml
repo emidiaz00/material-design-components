@@ -21,7 +21,7 @@
             android:layout_marginEnd="@dimen/common_padding_min"
             android:clickable="true"
             android:focusable="true"
-            android:visibility="gone"
+            android:visibility="visible"
             app:cardElevation="@dimen/common_padding_min">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -115,7 +115,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/card_img_cover_height"
                     android:background="@color/design_default_color_secondary"
-                    android:visibility="gone"
+                    android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
