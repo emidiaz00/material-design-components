@@ -11,6 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="?attr/actionBarSize"
         android:orientation="vertical">
 
         <com.google.android.material.card.MaterialCardView
@@ -246,18 +247,17 @@
                         />
 
 
-
                 </com.google.android.material.button.MaterialButtonToggleGroup>
 
                 <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/common_padding_default"
                     android:text="@string/card_btn_skip"
-                    app:layout_constraintHorizontal_bias="1"
-                    style="@style/Widget.MaterialComponents.Button.TextButton"
-                    app:layout_constraintStart_toStartOf="@id/toogle_button"
                     app:layout_constraintEnd_toEndOf="@id/toogle_button"
+                    app:layout_constraintHorizontal_bias="1"
+                    app:layout_constraintStart_toStartOf="@id/toogle_button"
                     app:layout_constraintTop_toBottomOf="@id/toogle_button"
 
                     />
